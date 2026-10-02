@@ -1,10 +1,31 @@
+# Python
 venv/
 .venv/
 __pycache__/
 *.pyc
+
+# Environment / secrets
 .env
+
+# Database
 *.db
 *.sqlite
 *.sqlite3
-.idea/
+
+# Flutter
+frontend/.dart_tool/
+frontend/build/
+frontend/.idea/
+
+# IDE
 .vscode/
+.idea/
+
+# Flutter generated files
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.flutter_tool_state
+
+# Flutter/browser generated data
+frontend/chrome-device/
+frontend/frontend/
